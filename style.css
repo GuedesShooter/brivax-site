@@ -561,3 +561,43 @@ bottom:15px;
 }
 
 }
+...última regra do CSS...
+
+}
+
+.show{
+opacity:1 !important;
+transform:translateY(0px) !important;
+}
+
+.service-card,
+.stat-card,
+.projects-grid img,
+.process-grid div{
+opacity:0;
+transform:translateY(30px);
+transition:.6s;
+}
+
+.back-to-top{
+position:fixed;
+left:25px;
+bottom:25px;
+width:50px;
+height:50px;
+border:none;
+border-radius:50%;
+background:#ff6a00;
+color:white;
+font-size:22px;
+cursor:pointer;
+opacity:0;
+pointer-events:none;
+transition:.3s;
+z-index:999;
+}
+
+.back-to-top.active{
+opacity:1;
+pointer-events:auto;
+}
