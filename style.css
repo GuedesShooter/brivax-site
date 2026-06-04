@@ -126,8 +126,14 @@ padding-left:8%;
 display:inline-block;
 margin-bottom:25px;
 font-size:14px;
-color:#ddd;
+font-weight:600;
+color:#ffffff;
 letter-spacing:1px;
+padding:10px 16px;
+background:rgba(0,0,0,.45);
+border:1px solid rgba(255,255,255,.15);
+border-radius:30px;
+backdrop-filter:blur(8px);
 }
 
 .hero h1{
