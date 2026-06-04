@@ -192,5 +192,31 @@ display:none;
 .hero-content{
 padding:0 25px;
 }
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.projects-grid img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:16px;
+transition:.3s;
+}
+
+.projects-grid img:hover{
+transform:scale(1.02);
+}
+
+@media(max-width:900px){
+
+.projects-grid{
+grid-template-columns:1fr;
+}
+
+}
 
 }
