@@ -581,8 +581,8 @@ transform:translateY(0px) !important;
 .stat-card,
 .projects-grid img,
 .process-grid div{
-opacity:0;
-transform:translateY(30px);
+opacity:1;
+transform:none;
 transition:.6s;
 }
 
