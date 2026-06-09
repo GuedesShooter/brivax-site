@@ -572,11 +572,17 @@ font-size:18px;
 
 .stats-grid,
 .services-grid,
-.projects-grid,
-.clients-grid,
 .process-grid,
 .footer-grid{
 grid-template-columns:1fr;
+}
+
+.projects-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.clients-grid{
+grid-template-columns:repeat(2,1fr);
 }
 
 section h2{
