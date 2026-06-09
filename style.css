@@ -532,7 +532,25 @@ grid-template-columns:1fr 1fr;
 @media(max-width:768px){
 
 nav{
-display:none;
+position:fixed;
+top:85px;
+left:-100%;
+width:100%;
+background:#0b0b0b;
+display:flex;
+flex-direction:column;
+padding:30px;
+gap:25px;
+transition:.35s;
+border-top:1px solid var(--border);
+}
+
+nav.active{
+left:0;
+}
+
+.menu-toggle{
+display:block;
 }
 
 .hero{
