@@ -669,3 +669,77 @@ color:#bdbdbd;
 line-height:1.9;
 font-size:18px;
 }
+/* ==========================
+PÁGINA QUEM SOMOS
+========================== */
+
+.page-header{
+padding-top:180px;
+padding-bottom:80px;
+text-align:center;
+}
+
+.page-header h1{
+font-size:64px;
+margin-bottom:20px;
+}
+
+.page-header p{
+max-width:850px;
+margin:auto;
+font-size:20px;
+line-height:1.9;
+color:#bdbdbd;
+}
+
+.specialties{
+padding-top:20px;
+padding-bottom:80px;
+}
+
+.specialties-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+margin-top:50px;
+}
+
+.specialty-card{
+background:var(--black-card);
+border:1px solid var(--border);
+border-radius:18px;
+padding:35px;
+transition:.3s;
+}
+
+.specialty-card:hover{
+transform:translateY(-4px);
+border-color:rgba(255,106,0,.4);
+}
+
+.specialty-card h3{
+color:var(--primary);
+margin-bottom:15px;
+font-size:24px;
+}
+
+.specialty-card p{
+color:#c5c5c5;
+line-height:1.9;
+}
+
+@media(max-width:768px){
+
+.page-header{
+padding-top:140px;
+}
+
+.page-header h1{
+font-size:42px;
+}
+
+.specialties-grid{
+grid-template-columns:1fr;
+}
+
+}
