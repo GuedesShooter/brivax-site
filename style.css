@@ -805,4 +805,25 @@ font-size:42px;
 grid-template-columns:1fr;
 }
 
+/* ==========================
+PORTFÓLIO HOME
+========================== */
+
+.portfolio-preview{
+padding:90px 0;
+background:#090909;
+text-align:center;
+}
+
+.portfolio-preview .section-text{
+max-width:900px;
+margin:25px auto 40px;
+line-height:1.9;
+font-size:18px;
+color:#bdbdbd;
+}
+
+.portfolio-preview .hero-buttons{
+justify-content:center;
+}
 }
