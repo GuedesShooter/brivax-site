@@ -414,6 +414,11 @@ color:var(--primary);
 font-weight:700;
 transition:.3s;
 }
+.differentials .service-card::after,
+.commitment .service-card::after,
+.segments .service-card::after{
+content:none;
+}
 
 .service-card:hover::after{
 transform:translateX(8px);
