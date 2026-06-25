@@ -389,9 +389,21 @@ padding:22px 22px 10px;
 }
 
 .service-card p{
-padding:0 22px 25px;
+padding:0 22px 10px;
 line-height:1.8;
 color:#bdbdbd;
+}
+
+.service-link{
+display:block;
+padding:0 22px 25px;
+font-weight:700;
+color:var(--primary);
+transition:.3s;
+}
+
+.service-card:hover .service-link{
+transform:translateX(8px);
 }
 
 .service-card::after{
