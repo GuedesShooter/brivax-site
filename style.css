@@ -1034,3 +1034,118 @@ color:#c8c8c8;
 line-height:1.8;
 
 }
+.project-specs{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:15px;
+
+margin:30px 0;
+
+}
+
+.project-specs div{
+
+background:#181818;
+
+border:1px solid #2b2b2b;
+
+border-radius:12px;
+
+padding:18px;
+
+transition:.3s;
+
+}
+
+.project-specs div:hover{
+
+border-color:var(--primary);
+
+transform:translateY(-3px);
+
+}
+
+.project-specs strong{
+
+display:block;
+
+font-size:13px;
+
+letter-spacing:1px;
+
+text-transform:uppercase;
+
+color:var(--primary);
+
+margin-bottom:8px;
+
+}
+
+.project-specs p{
+
+margin:0;
+
+font-size:17px;
+
+color:#fff;
+
+font-weight:600;
+
+}
+
+.project-list{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:12px 25px;
+
+list-style:none;
+
+padding:0;
+
+margin:30px 0;
+
+}
+
+.project-list li{
+
+position:relative;
+
+padding-left:28px;
+
+line-height:1.6;
+
+color:#d6d6d6;
+
+}
+
+.project-list li::before{
+
+content:"✔";
+
+position:absolute;
+
+left:0;
+
+color:var(--primary);
+
+font-weight:bold;
+
+}
+
+.project-content .hero-buttons{
+
+margin-top:20px;
+
+}
+
+.project-content .btn-primary{
+
+width:fit-content;
+
+}
